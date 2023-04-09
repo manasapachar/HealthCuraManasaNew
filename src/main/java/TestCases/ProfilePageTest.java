@@ -41,11 +41,15 @@ public class ProfilePageTest extends BaseClass{
 		ProfilePage pp = new ProfilePage(driver);
 		
 		driver.get("https://katalon-demo-cura.herokuapp.com/profile.php#profile");
+		
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
 		Assert.assertTrue(pp.prfileLabelPresent());
 		
 		Logout lo = new Logout(driver);
+		
 		lo.menuToggle();
+		
 		lo.logout();
 	}
 

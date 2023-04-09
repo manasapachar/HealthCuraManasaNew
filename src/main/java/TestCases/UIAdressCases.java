@@ -33,18 +33,20 @@ public class UIAdressCases extends BaseClass {
 		login.clickButton();
 		
 		
-	
-		
-		
 		Assert.assertEquals("We Care About Your Health", login.passLogin());
 
 		Home home = new Home(driver);	
+		
 		boolean result = home.adressPresent();
+		
 		Assert.assertTrue(result);
 		
 		Logout lo = new Logout(driver);
+		
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
 		lo.menuToggle();
+		
 		lo.logout();
 	}
 
@@ -75,6 +77,8 @@ public class UIAdressCases extends BaseClass {
 		
 		
 		Assert.assertEquals("We Care About Your Health", login.passLogin());
+		
+		
 		History history = new History(driver);	
 		boolean result = history.adressPresent();
 		Assert.assertTrue(result);
@@ -113,8 +117,11 @@ public class UIAdressCases extends BaseClass {
 		
 		
 		Assert.assertEquals("We Care About Your Health", login.passLogin());
+		
 		LoginPage lp = new LoginPage(driver);	
+		
 		boolean result = lp.adressPresent();
+		
 		Assert.assertTrue(result);
 		
 		
