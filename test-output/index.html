@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.ProfilePageTest" class="method navigator-link" hash-for-method="ProfilePageLabelDisplay">ProfilePageLabelDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginFunctionalityTestCase" class="method navigator-link" hash-for-method="VerifyUser(John Doe, ThisIsNotAPassword)">VerifyUser(John Doe, ThisIsNotAPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginFunctionalityTestCase" class="method navigator-link" hash-for-method="VerifyUser(John, Passord)">VerifyUser(John, Passord)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginFunctionalityTestCase" class="method navigator-link" hash-for-method="VerifyUser(abc, xyz)">VerifyUser(abc, xyz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginFunctionalityTestCase" class="method navigator-link" hash-for-method="VerifyUser(johndoe@gmail.com, qwerrty)">VerifyUser(johndoe@gmail.com, qwerrty)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginFunctionalityTestCase" class="method navigator-link" hash-for-method="VerifyUser(john@Doe.com, poiuyt)">VerifyUser(john@Doe.com, poiuyt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginFunctionalityTestCase" class="method navigator-link" hash-for-method="VerifyUser(abc, abcde)">VerifyUser(abc, abcde)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginTestCases" class="method navigator-link" hash-for-method="alterUser">alterUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="utility.ExtentReportClass" class="method navigator-link" hash-for-method="failTest">failTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginTestCases" class="method navigator-link" hash-for-method="invalidUser">invalidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginTestCases" class="method navigator-link" hash-for-method="noUser">noUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="utility.ExtentReportClass" class="method navigator-link" hash-for-method="passTest">passTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HomeTestCases" class="method navigator-link" hash-for-method="testHomeScreen">testHomeScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LogoutTestCases" class="method navigator-link" hash-for-method="testLogout">testLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginTestCases" class="method navigator-link" hash-for-method="validUser">validUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.UIAdressCases" class="method navigator-link" hash-for-method="verifyAdressAtAppointment">verifyAdressAtAppointment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.UIAdressCases" class="method navigator-link" hash-for-method="verifyAdressAtHistory">verifyAdressAtHistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.UIAdressCases" class="method navigator-link" hash-for-method="verifyAdressAtHome">verifyAdressAtHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.UIAdressCases" class="method navigator-link" hash-for-method="verifyAdressAtLogin">verifyAdressAtLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.UIAdressCases" class="method navigator-link" hash-for-method="verifyAdressAtProfile">verifyAdressAtProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HistoryAppointmentTestCases" class="method navigator-link" hash-for-method="verifyAppointment">verifyAppointment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MakeAppointment" class="method navigator-link" hash-for-method="verifyAppointment">verifyAppointment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HistoryAppointmentTestCases" class="method navigator-link" hash-for-method="verifyAppointment1">verifyAppointment1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MakeAppointment" class="method navigator-link" hash-for-method="verifyUser">verifyUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HistoryTestCases" class="method navigator-link" hash-for-method="verifyUser">verifyUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HistoryAppointmentTestCases" class="method navigator-link" hash-for-method="verifyUser">verifyUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HistoryTestCases" class="method navigator-link" hash-for-method="verifynoHistory">verifynoHistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.ProfilePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProfilePageLabelDisplay">
+                  </a> <!-- ProfilePageLabelDisplay -->
+                  <span class="method-name">ProfilePageLabelDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.HistoryTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUser">
+                  </a> <!-- verifyUser -->
+                  <span class="method-name">verifyUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifynoHistory">
+                  </a> <!-- verifynoHistory -->
+                  <span class="method-name">verifynoHistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.HistoryAppointmentTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppointment">
+                  </a> <!-- verifyAppointment -->
+                  <span class="method-name">verifyAppointment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppointment1">
+                  </a> <!-- verifyAppointment1 -->
+                  <span class="method-name">verifyAppointment1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUser">
+                  </a> <!-- verifyUser -->
+                  <span class="method-name">verifyUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.LoginTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alterUser">
+                  </a> <!-- alterUser -->
+                  <span class="method-name">alterUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUser">
+                  </a> <!-- invalidUser -->
+                  <span class="method-name">invalidUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noUser">
+                  </a> <!-- noUser -->
+                  <span class="method-name">noUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUser">
+                  </a> <!-- validUser -->
+                  <span class="method-name">validUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">utility.ExtentReportClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="failTest">
+                  </a> <!-- failTest -->
+                  <span class="method-name">failTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passTest">
+                  </a> <!-- passTest -->
+                  <span class="method-name">passTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.HomeTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeScreen">
+                  </a> <!-- testHomeScreen -->
+                  <span class="method-name">testHomeScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.MakeAppointment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppointment">
+                  </a> <!-- verifyAppointment -->
+                  <span class="method-name">verifyAppointment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUser">
+                  </a> <!-- verifyUser -->
+                  <span class="method-name">verifyUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.UIAdressCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdressAtAppointment">
+                  </a> <!-- verifyAdressAtAppointment -->
+                  <span class="method-name">verifyAdressAtAppointment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdressAtHistory">
+                  </a> <!-- verifyAdressAtHistory -->
+                  <span class="method-name">verifyAdressAtHistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdressAtHome">
+                  </a> <!-- verifyAdressAtHome -->
+                  <span class="method-name">verifyAdressAtHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdressAtLogin">
+                  </a> <!-- verifyAdressAtLogin -->
+                  <span class="method-name">verifyAdressAtLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdressAtProfile">
+                  </a> <!-- verifyAdressAtProfile -->
+                  <span class="method-name">verifyAdressAtProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.LogoutTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogout">
+                  </a> <!-- testLogout -->
+                  <span class="method-name">testLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.LoginFunctionalityTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUser(John Doe, ThisIsNotAPassword)">
+                  </a> <!-- VerifyUser(John Doe, ThisIsNotAPassword) -->
+                  <span class="method-name">VerifyUser</span>
+                  <span class="parameters">(John Doe, ThisIsNotAPassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUser(John, Passord)">
+                  </a> <!-- VerifyUser(John, Passord) -->
+                  <span class="method-name">VerifyUser</span>
+                  <span class="parameters">(John, Passord)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUser(abc, xyz)">
+                  </a> <!-- VerifyUser(abc, xyz) -->
+                  <span class="method-name">VerifyUser</span>
+                  <span class="parameters">(abc, xyz)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUser(johndoe@gmail.com, qwerrty)">
+                  </a> <!-- VerifyUser(johndoe@gmail.com, qwerrty) -->
+                  <span class="method-name">VerifyUser</span>
+                  <span class="parameters">(johndoe@gmail.com, qwerrty)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUser(john@Doe.com, poiuyt)">
+                  </a> <!-- VerifyUser(john@Doe.com, poiuyt) -->
+                  <span class="method-name">VerifyUser</span>
+                  <span class="parameters">(john@Doe.com, poiuyt)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyUser(abc, abcde)">
+                  </a> <!-- VerifyUser(abc, abcde) -->
+                  <span class="method-name">VerifyUser</span>
+                  <span class="parameters">(abc, abcde)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/anandsortur/eclipse-workspace/GitHubRepos/HealthCuraManasa2/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.ProfilePageTest&quot;/&gt;
+      &lt;class name=&quot;TestCases.UIAdressCases&quot;/&gt;
+      &lt;class name=&quot;TestCases.HomeTestCases&quot;/&gt;
+      &lt;class name=&quot;TestCases.LoginTestCases&quot;/&gt;
+      &lt;class name=&quot;TestCases.HistoryTestCases&quot;/&gt;
+      &lt;class name=&quot;TestCases.MakeAppointment&quot;/&gt;
+      &lt;class name=&quot;TestCases.HistoryAppointmentTestCases&quot;/&gt;
+      &lt;class name=&quot;TestCases.LogoutTestCases&quot;/&gt;
+      &lt;class name=&quot;utility.ExtentReportClass&quot;/&gt;
+      &lt;class name=&quot;TestCases.LoginFunctionalityTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ProfilePageLabelDisplay')
+data.setCell(0, 2, 'TestCases.ProfilePageTest')
+data.setCell(0, 3, 13681);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'alterUser')
+data.setCell(1, 2, 'TestCases.LoginTestCases')
+data.setCell(1, 3, 11140);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validUser')
+data.setCell(2, 2, 'TestCases.LoginTestCases')
+data.setCell(2, 3, 9923);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'noUser')
+data.setCell(3, 2, 'TestCases.LoginTestCases')
+data.setCell(3, 3, 5993);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'invalidUser')
+data.setCell(4, 2, 'TestCases.LoginTestCases')
+data.setCell(4, 3, 5970);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifynoHistory')
+data.setCell(5, 2, 'TestCases.HistoryTestCases')
+data.setCell(5, 3, 4102);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyUser')
+data.setCell(6, 2, 'TestCases.LoginFunctionalityTestCase')
+data.setCell(6, 3, 3888);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyUser')
+data.setCell(7, 2, 'TestCases.LoginFunctionalityTestCase')
+data.setCell(7, 3, 3595);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyUser')
+data.setCell(8, 2, 'TestCases.LoginFunctionalityTestCase')
+data.setCell(8, 3, 3580);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyAdressAtHome')
+data.setCell(9, 2, 'TestCases.UIAdressCases')
+data.setCell(9, 3, 3574);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyUser')
+data.setCell(10, 2, 'TestCases.LoginFunctionalityTestCase')
+data.setCell(10, 3, 3542);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyAdressAtLogin')
+data.setCell(11, 2, 'TestCases.UIAdressCases')
+data.setCell(11, 3, 3534);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyUser')
+data.setCell(12, 2, 'TestCases.LoginFunctionalityTestCase')
+data.setCell(12, 3, 3479);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyUser')
+data.setCell(13, 2, 'TestCases.LoginFunctionalityTestCase')
+data.setCell(13, 3, 3441);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyAdressAtHistory')
+data.setCell(14, 2, 'TestCases.UIAdressCases')
+data.setCell(14, 3, 3314);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyAppointment')
+data.setCell(15, 2, 'TestCases.MakeAppointment')
+data.setCell(15, 3, 3314);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyAdressAtProfile')
+data.setCell(16, 2, 'TestCases.UIAdressCases')
+data.setCell(16, 3, 3245);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyAdressAtAppointment')
+data.setCell(17, 2, 'TestCases.UIAdressCases')
+data.setCell(17, 3, 3243);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testLogout')
+data.setCell(18, 2, 'TestCases.LogoutTestCases')
+data.setCell(18, 3, 3200);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyUser')
+data.setCell(19, 2, 'TestCases.HistoryTestCases')
+data.setCell(19, 3, 2351);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyUser')
+data.setCell(20, 2, 'TestCases.HistoryAppointmentTestCases')
+data.setCell(20, 3, 2272);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyUser')
+data.setCell(21, 2, 'TestCases.MakeAppointment')
+data.setCell(21, 3, 2214);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyAppointment1')
+data.setCell(22, 2, 'TestCases.HistoryAppointmentTestCases')
+data.setCell(22, 3, 2143);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyAppointment')
+data.setCell(23, 2, 'TestCases.HistoryAppointmentTestCases')
+data.setCell(23, 3, 1855);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testHomeScreen')
+data.setCell(24, 2, 'TestCases.HomeTestCases')
+data.setCell(24, 3, 508);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'passTest')
+data.setCell(25, 2, 'utility.ExtentReportClass')
+data.setCell(25, 3, 50);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'failTest')
+data.setCell(26, 2, 'utility.ExtentReportClass')
+data.setCell(26, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">18 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.HistoryTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.HistoryAppointmentTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.LoginTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">utility.ExtentReportClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.MakeAppointment</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.HomeTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.UIAdressCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.LoginFunctionalityTestCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.LogoutTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tear</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ProfilePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">utility.ExtentReportClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">9657 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ProfilePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ProfilePageLabelDisplay</span>
+                <span class="method-start">10003 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.UIAdressCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAdressAtAppointment</span>
+                <span class="method-start">23700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdressAtHistory</span>
+                <span class="method-start">26949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdressAtHome</span>
+                <span class="method-start">30266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdressAtLogin</span>
+                <span class="method-start">33842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAdressAtProfile</span>
+                <span class="method-start">37378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.HomeTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHomeScreen</span>
+                <span class="method-start">40628 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">alterUser</span>
+                <span class="method-start">41140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidUser</span>
+                <span class="method-start">52290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noUser</span>
+                <span class="method-start">58262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validUser</span>
+                <span class="method-start">64256 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.HistoryTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUser</span>
+                <span class="method-start">74187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifynoHistory</span>
+                <span class="method-start">76541 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.MakeAppointment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUser</span>
+                <span class="method-start">80645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAppointment</span>
+                <span class="method-start">82871 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.HistoryAppointmentTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUser</span>
+                <span class="method-start">86188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAppointment</span>
+                <span class="method-start">88463 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAppointment1</span>
+                <span class="method-start">90320 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.LogoutTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogout</span>
+                <span class="method-start">92467 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">utility.ExtentReportClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">failTest</span>
+                <span class="method-start">95672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=failTest status=SUCCESS method=ExtentReportClass.failTest()[pri:0, instance:utility...)</span>
+                <span class="method-start">95674 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">passTest</span>
+                <span class="method-start">95689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=passTest status=SUCCESS method=ExtentReportClass.passTest()[pri:0, instance:utility...)</span>
+                <span class="method-start">95740 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.LoginFunctionalityTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyUser(abc, abcde)</span>
+                <span class="method-start">97280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyUser(abc, xyz)</span>
+                <span class="method-start">100877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyUser(John, Passord)</span>
+                <span class="method-start">104319 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyUser(johndoe@gmail.com, qwerrty)</span>
+                <span class="method-start">108210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyUser(john@Doe.com, poiuyt)</span>
+                <span class="method-start">111791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyUser(John Doe, ThisIsNotAPassword)</span>
+                <span class="method-start">115272 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">utility.ExtentReportClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">118815 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.ProfilePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tear</span>
+                <span class="method-start">119383 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

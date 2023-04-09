@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="45" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-09T16:07:30 IST" name="Suite" finished-at="2023-04-09T16:09:20 IST" duration-ms="110218">
+    <groups>
+    </groups>
+    <test started-at="2023-04-09T16:07:30 IST" name="Test" finished-at="2023-04-09T16:09:20 IST" duration-ms="110218">
+      <class name="TestCases.HistoryTestCases">
+        <test-method signature="verifyUser()[pri:0, instance:TestCases.HistoryTestCases@70e8f8e]" started-at="2023-04-09T16:08:35 IST" name="verifyUser" finished-at="2023-04-09T16:08:37 IST" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifynoHistory()[pri:0, instance:TestCases.HistoryTestCases@70e8f8e]" started-at="2023-04-09T16:08:37 IST" name="verifynoHistory" finished-at="2023-04-09T16:08:41 IST" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynoHistory -->
+      </class> <!-- TestCases.HistoryTestCases -->
+      <class name="TestCases.LoginTestCases">
+        <test-method signature="alterUser()[pri:0, instance:TestCases.LoginTestCases@2e4b8173]" started-at="2023-04-09T16:08:02 IST" name="alterUser" finished-at="2023-04-09T16:08:13 IST" duration-ms="11140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alterUser -->
+        <test-method signature="invalidUser()[pri:0, instance:TestCases.LoginTestCases@2e4b8173]" started-at="2023-04-09T16:08:13 IST" name="invalidUser" finished-at="2023-04-09T16:08:19 IST" duration-ms="5970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUser -->
+        <test-method signature="noUser()[pri:0, instance:TestCases.LoginTestCases@2e4b8173]" started-at="2023-04-09T16:08:19 IST" name="noUser" finished-at="2023-04-09T16:08:25 IST" duration-ms="5993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noUser -->
+        <test-method signature="validUser()[pri:0, instance:TestCases.LoginTestCases@2e4b8173]" started-at="2023-04-09T16:08:25 IST" name="validUser" finished-at="2023-04-09T16:08:35 IST" duration-ms="9923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUser -->
+      </class> <!-- TestCases.LoginTestCases -->
+      <class name="TestCases.LoginFunctionalityTestCase">
+        <test-method signature="VerifyUser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginFunctionalityTestCase@64cd705f]" started-at="2023-04-09T16:08:58 IST" name="VerifyUser" data-provider="getInfo" finished-at="2023-04-09T16:09:01 IST" duration-ms="3595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUser -->
+        <test-method signature="VerifyUser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginFunctionalityTestCase@64cd705f]" started-at="2023-04-09T16:09:01 IST" name="VerifyUser" data-provider="getInfo" finished-at="2023-04-09T16:09:05 IST" duration-ms="3441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUser -->
+        <test-method signature="VerifyUser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginFunctionalityTestCase@64cd705f]" started-at="2023-04-09T16:09:05 IST" name="VerifyUser" data-provider="getInfo" finished-at="2023-04-09T16:09:09 IST" duration-ms="3888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passord]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUser -->
+        <test-method signature="VerifyUser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginFunctionalityTestCase@64cd705f]" started-at="2023-04-09T16:09:09 IST" name="VerifyUser" data-provider="getInfo" finished-at="2023-04-09T16:09:12 IST" duration-ms="3580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[johndoe@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerrty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUser -->
+        <test-method signature="VerifyUser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginFunctionalityTestCase@64cd705f]" started-at="2023-04-09T16:09:12 IST" name="VerifyUser" data-provider="getInfo" finished-at="2023-04-09T16:09:16 IST" duration-ms="3479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@Doe.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[poiuyt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUser -->
+        <test-method signature="VerifyUser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginFunctionalityTestCase@64cd705f]" started-at="2023-04-09T16:09:16 IST" name="VerifyUser" data-provider="getInfo" finished-at="2023-04-09T16:09:19 IST" duration-ms="3542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUser -->
+      </class> <!-- TestCases.LoginFunctionalityTestCase -->
+      <class name="TestCases.LogoutTestCases">
+        <test-method signature="testLogout()[pri:0, instance:TestCases.LogoutTestCases@6e4784bc]" started-at="2023-04-09T16:08:53 IST" name="testLogout" finished-at="2023-04-09T16:08:56 IST" duration-ms="3200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+      </class> <!-- TestCases.LogoutTestCases -->
+      <class name="TestCases.ProfilePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.ProfilePageTest@3c419631]" started-at="2023-04-09T16:07:21 IST" name="setup" finished-at="2023-04-09T16:07:30 IST" duration-ms="9644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProfilePageLabelDisplay()[pri:0, instance:TestCases.ProfilePageTest@3c419631]" started-at="2023-04-09T16:07:31 IST" name="ProfilePageLabelDisplay" finished-at="2023-04-09T16:07:44 IST" duration-ms="13681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfilePageLabelDisplay -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:TestCases.ProfilePageTest@3c419631]" started-at="2023-04-09T16:09:20 IST" name="tear" finished-at="2023-04-09T16:09:20 IST" depends-on-methods="utility.ExtentReportClass.endReport" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- TestCases.ProfilePageTest -->
+      <class name="TestCases.UIAdressCases">
+        <test-method signature="verifyAdressAtAppointment()[pri:0, instance:TestCases.UIAdressCases@3e92efc3]" started-at="2023-04-09T16:07:44 IST" name="verifyAdressAtAppointment" finished-at="2023-04-09T16:07:48 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdressAtAppointment -->
+        <test-method signature="verifyAdressAtHistory()[pri:0, instance:TestCases.UIAdressCases@3e92efc3]" started-at="2023-04-09T16:07:48 IST" name="verifyAdressAtHistory" finished-at="2023-04-09T16:07:51 IST" duration-ms="3314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdressAtHistory -->
+        <test-method signature="verifyAdressAtHome()[pri:0, instance:TestCases.UIAdressCases@3e92efc3]" started-at="2023-04-09T16:07:51 IST" name="verifyAdressAtHome" finished-at="2023-04-09T16:07:54 IST" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdressAtHome -->
+        <test-method signature="verifyAdressAtLogin()[pri:0, instance:TestCases.UIAdressCases@3e92efc3]" started-at="2023-04-09T16:07:54 IST" name="verifyAdressAtLogin" finished-at="2023-04-09T16:07:58 IST" duration-ms="3534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdressAtLogin -->
+        <test-method signature="verifyAdressAtProfile()[pri:0, instance:TestCases.UIAdressCases@3e92efc3]" started-at="2023-04-09T16:07:58 IST" name="verifyAdressAtProfile" finished-at="2023-04-09T16:08:01 IST" duration-ms="3245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdressAtProfile -->
+      </class> <!-- TestCases.UIAdressCases -->
+      <class name="TestCases.MakeAppointment">
+        <test-method signature="verifyUser()[pri:0, instance:TestCases.MakeAppointment@29626d54]" started-at="2023-04-09T16:08:41 IST" name="verifyUser" finished-at="2023-04-09T16:08:43 IST" duration-ms="2214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyAppointment()[pri:0, instance:TestCases.MakeAppointment@29626d54]" started-at="2023-04-09T16:08:43 IST" name="verifyAppointment" finished-at="2023-04-09T16:08:47 IST" depends-on-methods="TestCases.MakeAppointment.verifyUser" duration-ms="3314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointment -->
+      </class> <!-- TestCases.MakeAppointment -->
+      <class name="TestCases.HistoryAppointmentTestCases">
+        <test-method signature="verifyUser()[pri:0, instance:TestCases.HistoryAppointmentTestCases@5a63f509]" started-at="2023-04-09T16:08:47 IST" name="verifyUser" finished-at="2023-04-09T16:08:49 IST" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyAppointment()[pri:0, instance:TestCases.HistoryAppointmentTestCases@5a63f509]" started-at="2023-04-09T16:08:49 IST" name="verifyAppointment" finished-at="2023-04-09T16:08:51 IST" depends-on-methods="TestCases.HistoryAppointmentTestCases.verifyUser" duration-ms="1855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointment -->
+        <test-method signature="verifyAppointment1()[pri:0, instance:TestCases.HistoryAppointmentTestCases@5a63f509]" started-at="2023-04-09T16:08:51 IST" name="verifyAppointment1" finished-at="2023-04-09T16:08:53 IST" depends-on-methods="TestCases.HistoryAppointmentTestCases.verifyAppointment" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointment1 -->
+      </class> <!-- TestCases.HistoryAppointmentTestCases -->
+      <class name="utility.ExtentReportClass">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:utility.ExtentReportClass@13e39c73]" started-at="2023-04-09T16:07:30 IST" name="startReport" finished-at="2023-04-09T16:07:31 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="failTest()[pri:0, instance:utility.ExtentReportClass@13e39c73]" started-at="2023-04-09T16:08:56 IST" name="failTest" finished-at="2023-04-09T16:08:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:utility.ExtentReportClass@13e39c73]" started-at="2023-04-09T16:08:56 IST" name="getResult" finished-at="2023-04-09T16:08:56 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=failTest status=SUCCESS method=ExtentReportClass.failTest()[pri:0, instance:utility.ExtentReportClass@13e39c73] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="passTest()[pri:0, instance:utility.ExtentReportClass@13e39c73]" started-at="2023-04-09T16:08:56 IST" name="passTest" finished-at="2023-04-09T16:08:56 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:utility.ExtentReportClass@13e39c73]" started-at="2023-04-09T16:08:56 IST" name="getResult" finished-at="2023-04-09T16:08:56 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passTest status=SUCCESS method=ExtentReportClass.passTest()[pri:0, instance:utility.ExtentReportClass@13e39c73] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:utility.ExtentReportClass@13e39c73]" started-at="2023-04-09T16:09:19 IST" name="endReport" finished-at="2023-04-09T16:09:20 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- utility.ExtentReportClass -->
+      <class name="TestCases.HomeTestCases">
+        <test-method signature="testHomeScreen()[pri:0, instance:TestCases.HomeTestCases@72a7c7e0]" started-at="2023-04-09T16:08:01 IST" name="testHomeScreen" finished-at="2023-04-09T16:08:02 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeScreen -->
+      </class> <!-- TestCases.HomeTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

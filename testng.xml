@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+		<class name="TestCases.ProfilePageTest" />
+			<class name="TestCases.UIAdressCases" />
+			<class name="TestCases.HomeTestCases" />
+			<class name="TestCases.LoginTestCases" />
+			<class name="TestCases.HistoryTestCases" />
+			<class name="TestCases.MakeAppointment" />
+			<class name="TestCases.HistoryAppointmentTestCases" />
+			<class name="TestCases.LogoutTestCases" />
+			<class name="utility.ExtentReportClass" />
+			<class name="TestCases.LoginFunctionalityTestCase" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
